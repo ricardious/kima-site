@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/kima-site/play/sw.js', { scope: '/kima-site/play/' })})}
